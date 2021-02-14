@@ -1,0 +1,50 @@
+body{
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+h1 {
+    font-family: arial-bold, sans-serif;
+    /* font-weight: 900; */
+    font-size: 4em;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: Heebo, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.underline {
+    display: inline;
+    text-decoration: underline;
+}
+
+.underline:hover {
+    color: #6D93E5;
+    transition-duration: .75s;
+}
+
+/* .things{
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.big-list{
+    list-style-type: none;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-top: 0;
+}
+
+#header-2{
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#header-3{
+    width: 60%;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+} */
