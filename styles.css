@@ -1,18 +1,9 @@
-body{
-    margin-left: 50px;
-    margin-right: 200px;
-}
-
 h1 {
     font-family: arial-bold, sans-serif;
-    /* font-weight: 900; */
-    font-size: 4em;
-    margin-top: 150px;
-    margin-bottom: 0;
 }
 
 p {
-    font-family: Heebo, Arial, Helvetica, sans-serif;
+    font-family: "Heebo", Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
@@ -24,6 +15,33 @@ p {
 .underline:hover {
     color: #6D93E5;
     transition-duration: .75s;
+}
+
+/* ? Phone screens */
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+}
+
+/* ? Computer screens */
+@media screen and (min-width: 1000px) {
+    body{
+        margin-left: 50px;
+        margin-right: 200px;
+    }
+
+    h1 {
+        
+        /* font-weight: 900; */
+        font-size: 4em;
+        margin-top: 150px;
+        margin-bottom: 0;
+    }
 }
 
 /* .things{
