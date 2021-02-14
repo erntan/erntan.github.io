@@ -1,11 +1,12 @@
 body{
+    margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
+    height: 100%;
 }
 
 h1 {
-    margin-top: 150px;
-    margin-bottom: 0;
+    margin: 0;
     font-family: arial-bold, sans-serif;
     font-size: 64px;
 }
@@ -25,34 +26,20 @@ p {
     transition-duration: .75s;
 }
 
-/* ? Phone screens */
-@media screen and (max-width: 200px) {
-    body {
-        background: green;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    body {
+@media screen and (orientation: portrait) { /* Gets computer browser windows that are skinny*/
+    /* body {
         background: yellow;
-    }
+    } */
 
-    h1 {
-        font-size: 64px;
-    }
-}
+    @media (hover: none) { /* Gets all mobile screens */
+        body {
+            margin-left: 100px;
+            /* background: green; */
+        }
 
-@media screen and (min-width: 750px) {
-    body {
-        background: blue;
-    }
-
-    p {
-        font-size: 2rem;
+        h1 {
+            font-size: 120px;
+        }
     }
 }
 
