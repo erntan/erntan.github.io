@@ -1,5 +1,6 @@
 h1 {
     font-family: arial-bold, sans-serif;
+    font-size: 100px;
 }
 
 p {
@@ -18,10 +19,10 @@ p {
 }
 
 /* ? Phone screens */
-@media screen and (max-width: 1000px) {
-    h1 {
-        font-size: 5rem;
-    }
+@media screen and (max-width: 600px) {
+    /* h1 {
+        font-size: 100px;
+    } */
 
     p {
         font-size: 2rem;
@@ -29,12 +30,7 @@ p {
 }
 
 /* ? Computer screens */
-@media screen and (min-width: 1000px) {
-    body{
-        margin-left: 50px;
-        margin-right: 200px;
-    }
-
+@media screen and (min-width: 600px) {
     h1 {
         
         /* font-weight: 900; */
@@ -42,6 +38,13 @@ p {
         margin-top: 150px;
         margin-bottom: 0;
     }
+    
+    body{
+        margin-left: 50px;
+        margin-right: 200px;
+    }
+
+    
 }
 
 /* .things{
